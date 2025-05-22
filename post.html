@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts here</title>
+    <style>
+        #posts{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 2opx;
+        }
+        .post{
+            margin: 20px;
+            border: 2px solid goldenrod;
+            padding: 20px;
+            border-radius: 0px 30px 50px 0px;
+            transition: all 0.3s linear;
+        }
+        .post:hover {
+            border-radius: 0px 0px 0px 0px;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            
+            <li><a href="./post.html">posts</a></li>
+        </ul>
+    </nav>
+    <div id="posts">
+    </div>
+   
+
+    <script src="./post.js"></script>
+    
+</body>
+</html>
+

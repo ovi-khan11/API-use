@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users here</title>
+    <style>
+        #comments{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .comment{
+            margin: 20px;
+            border: 2px solid purple;
+            padding: 20px;
+            border-radius: 50px;
+            transition: all 0.4s linear;
+        }
+        .comment:hover {
+            border-radius: 0;
+
+        }
+    
+
+    </style>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            
+            
+            <li><a href="./comment.html">Comments</a></li>
+        </ul>
+    </nav>
+    <div id="comments">
+    </div>
+   
+
+    <script src="./comment.js"></script>
+    
+</body>
+</html>
+

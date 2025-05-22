@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users here</title>
+    <style>
+        #todos{
+           display: grid; 
+           grid-template-columns: repeat(3,1fr);
+        }
+       .data{
+        margin: 20px; 
+        border:2px solid goldenrod ; 
+        padding: 30px;
+        border-radius: 0px 40px 60px 20px;
+        transition: all 0.3s linear;
+       }
+       .data:hover {
+          border-radius: 0px 40px 0px 0;
+       }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+           
+            <li><a href="./album.html">Todos</a></li>
+        </ul>
+    </nav>
+    <div id="todos">
+    </div>
+   
+
+    <script src="./todos.js"></script>
+    
+</body>
+</html>
+
