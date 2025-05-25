@@ -39,4 +39,82 @@ nav ul li a{
         border: 2px solid goldenrod;
         padding: 20px;
 
+ } 
+ #countries{
+    display: grid; 
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 20px;
  }
+ .country{
+    border: 2px solid goldenrod;
+    padding: 20px;
+ }
+ .country img{
+    height:220px ; 
+    width: 100%;
+ }
+ button{
+    
+    border: 2px solid blue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%; 
+    transition: all 0.3s ease-out;
+ } 
+ button:hover {
+     background-color: blue;
+     color: white;
+
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ .details-country{
+    text-align: center;
+    margin: auto;
+    border: 2px solid gold;
+    padding: 20px;
+    margin: 50px auto;
+    width: 70%;
+ }
+ .details-country img {
+    width: 100%;
+ }
+ .details-country a{
+    color: black; 
+    text-decoration: underline;
+ }
+ .search-field{
+   text-align: center;
+   margin: 50px;
+ }
+ input{
+   padding: 12px 20px;
+ }
+ 
+ .search-button{
+    border: 2px solid blue;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 100px; 
+    background-color: blue;
+    color: white;
+    transition: all 0.3s ease-out;
+ }
+ .search-button:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: rgba(0, 0, 255, 0);
+    color: black;
+ }
+ #food{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+ }
+ .mealcard{
+    border: 2px solid gold;
+    margin: 20px;
+    padding: 20px;
+ }
+ 
+    
