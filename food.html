@@ -11,13 +11,29 @@
      
     
 
+     
+    
+
   <div class="search-field">
-    <input id="search-input" placeholder="Search Here" type="text">
+    <input id="search-input" class="border-1 border-black rounded-xl" placeholder="Search Here" type="text">
     <button class="search-button" id="search-button">Search</button>
+    
+    
+    <p id="error" class="text-red-500 my-5 hidden">search field is empty write your favourite food</p>
+    <p id="error-two" class="text-red-500 my-5 hidden">Something went wrong!!!Please try again</p>
+  </div>
+  <div id="categories"></div>
+
+
+  <div id="single-food-details"></div>
+
+
+  <div id="foods" class="grid grid-cols-3 gap-10 max-10 ">
   </div>
 
-  <div id="Foods"></div>
     <script src="./food.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     
 </body>
 </html>
