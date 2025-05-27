@@ -95,7 +95,7 @@ nav ul li a{
  .search-button{
     border: 2px solid blue;
     padding: 12px 20px;
-    border-radius: 20px;
+    border-radius: 18px;
     width: 100px; 
     background-color: blue;
     color: white;
@@ -116,25 +116,5 @@ nav ul li a{
     margin: 20px;
     padding: 20px;
  }
-
-#categories {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 20px;
-    color: #000000;
-}
-
-.category {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 10px;
-    max-width: 300px;
-    text-align: center;
-    background: #fff;
-}
-
-.category img {
-    max-width: 100%;
-    border-radius:6px;
-}
+ 
+    
